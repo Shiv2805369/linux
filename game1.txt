@@ -1,0 +1,1000 @@
+   89  ./hello
+   90  ./hello.txt
+   91  ./cat
+   92  clear
+   93  cd Documents
+   94  mkdir Asia
+   95  mkdir -p Asia/India/Hyderabad
+   96  cd Asia/India
+   97  ls
+   98  rmdir Hyderabad/
+   99  ls
+  100  rm -rf Asia
+  101  ls
+  102  cd Desktop
+  103  cd .
+  104  cd ..
+  105  cd ~
+  106  ls
+  107  Desktop
+  108  cd Desktop
+  109  ls
+  110  Asia
+  111  cd Asia
+  112  ls
+  113  cd ..
+  114  rm -rf Asia
+  115  ls
+  116  clear
+  117  cd ~
+  118  ls l
+  119  ls -l
+  120  ls -a
+  121  ls -al
+  122  ls -f
+  123  ls -F
+  124  cd /usr/sbin/
+  125  ls -F
+  126  clear
+  127  ls l
+  128  ls -l
+  129  cd Desktop
+  130  cd ~
+  131  LS -L
+  132  ls -l
+  133  ls -lr
+  134  ls -t
+  135  ls -lt
+  136  ls -R
+  137  cd ~
+  138  tree
+  139  sudo apt install tree
+  140  tree
+  141  tree -d
+  142  tree -c
+  143  tree -C
+  144  Groups
+  145  groups
+  146  id -Gn
+  147  clear
+  148  cd Desktop
+  149  ls
+  150  ls -l hello.txt
+  151  chmod u-w hello.txt
+  152  ls -l hello.txt
+  153  chmod u+w hello.txt
+  154  ls -l hello.txt
+  155  clear
+  156  sudo apt update
+  157  sudo apt install git
+  158  git --version
+  159  cd git
+  160  cd
+  161  git clone https://github.com/slackermedia/bashcrawl.git bashcrawl
+  162  cd bashcrawl
+  163  ls
+  164  ls l
+  165  ls -l
+  166  cd
+  167  clear
+  168  git clone https://gitlab.com/slackermedia/bashcrawl.git bashcrawl
+  169  cd bashcrawl
+  170  cat README.md
+  171  cd entrance/
+  172  ls
+  173  cat scroll
+  174  ls
+  175  cd cellar
+  176  history
+  177  clear
+  178  exit
+  179  quit
+  180  ls
+  181  cd entrance/
+  182  path
+  183  path entrance
+  184  cd ..
+  185  path entrance/
+  186  entrance $PATH
+  187  entrance/ $PATH
+  188  ...
+  189  ..
+  190  cd ..
+  191  clear
+  192  cd entrance/
+  193  clear
+  194  cd '/home/shivendra/bashcrawl/entrance' 
+  195  cat scroll
+  196  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gl/nthiery%2Fbashcrawl/HEAD)
+  197  cd bashcrawl
+  198  cat README.md
+  199  cd entrance/
+  200  ls
+  201  cat scroll
+  202  clear
+  203  ls
+  204  cd ..
+  205  ls
+  206  cat README.md 
+  207  ls/user/sbin
+  208  ls /user/sbin
+  209  $PATH
+  210  ls /user/sbin
+  211  ls /usr/sbin
+  212  gzip -h
+  213  locate 1.txt
+  214  sudo apt install plocate
+  215  locate
+  216  locate 1.txt
+  217  cd '/home/shivendra/bashcrawl/entrance' 
+  218  cat scroll
+  219  ls
+  220  cd cellar
+  221  ls
+  222  cd armoury
+  223  ls
+  224  cd chamber
+  225  ls
+  226  cd spell
+  227  cat spell
+  228  ./spell
+  229  cd ..
+  230  cd..
+  231  cd ..
+  232  ls
+  233  treasure
+  234  ./treasure
+  235  I=amulet,$I
+  236  export I=amulet,$I
+  237  echo $I
+  238  cd '/home/shivendra/bashcrawl/entrance' 
+  239  ls
+  240  cat scroll
+  241  ls
+  242  cd cellar
+  243  ls
+  244  cd armoury
+  245  ls
+  246  cd chamber
+  247  ls
+  248  cat scroll
+  249  cd ..
+  250  cd potion
+  251  ./potion
+  252  export HP=15
+  253  echo $HP
+  254  ls
+  255  ./treasure
+  256  echo $I
+  257  export I=sword,$I
+  258  echo $I
+  259  cd ..
+  260  ls
+  261  ./ treasure
+  262  ./treasure
+  263  echo $I
+  264  export I=amulet,$I
+  265  echo $I
+  266  cd ..
+  267  ls
+  268  cd chapel
+  269  ls
+  270  ./altar
+  271  cat scroll
+  272  cd courtyard
+  273  ls
+  274  ./ fountain
+  275  ./fountain
+  276  ./rags
+  277  export I=rags,fish,$I
+  278  echo I
+  279  echo $I
+  280  LS
+  281  ls
+  282  cd aviary
+  283  ls
+  284  cd ..
+  285  cat scroll
+  286  ls
+  287  ./rags
+  288  ./fountain
+  289  cd aviary
+  290  ls
+  291  cat scroll
+  292  cd hall/
+  293  ls
+  294  ./monster
+  295  cd library
+  296  ls
+  297  cat scroll
+  298  ./tome
+  299  tree
+  300  cd ..
+  301  tree
+  302  ls
+  303  ./carcass
+  304  ./treasure
+  305  export I=crown,$I
+  306  echo $I
+  307  cd library
+  308  ls
+  309  cat scroll
+  310  ./tome
+  311  tree -F
+  312  cd ..
+  313  tree -F
+  314  ls ls > output.txt
+  315  cd ..
+  316  pwd
+  317  ls ls > output.txt
+  318  ls >ls_output.txt
+  319  more ls_output.txt
+  320  cd git
+  321  ls
+  322  cd demogit/
+  323  ls
+  324  ls -al
+  325  cat readme.md
+  326  cat read.md.swp
+  327  ls
+  328  vi Red.md
+  329  alias
+  330  alias ll ="ls -latr"
+  331  ll
+  332  alias ll
+  333  printenv
+  334  printenv HOME
+  335  clear
+  336  cd bashcrawl
+  337  ls
+  338  cat README.md 
+  339  ls
+  340  cat README.md 
+  341  cd ..
+  342  cat file.txt
+  343  file.txt $path
+  344  file.txt $PATH
+  345  $PATH file.txt
+  346  find file.txt
+  347  path file.txt
+  348  $path
+  349  ls
+  350  cd '/home/shivendra/bashcrawl/entrance' 
+  351  ls
+  352  cd chapel
+  353  ls
+  354  cat scroll 
+  355  cd ..
+  356  ls
+  357  cd cellar
+  358  ls
+  359  cat scroll 
+  360  ls -F
+  361  alias ls='ls -F'
+  362  ls
+  363  cd armoury/
+  364  ls
+  365  cd ..
+  366  ./treasure
+  367  export I=amulet,$I
+  368  echo $I
+  369  cd armoury/
+  370  ls
+  371  cat scroll 
+  372  a *
+  373  cd ..
+  374  cd armoury/
+  375  ls
+  376  cd chan
+  377  cd chamber/
+  378  ls
+  379  ./statue
+  380  ls
+  381  echo $I
+  382  cd cellar
+  383  ls
+  384  cd armoury/
+  385  ls
+  386  cat scroll 
+  387  ./potion 
+  388  export HP=15
+  389  ECHO $HP
+  390  echo $HP
+  391  ./treasure 
+  392  export I=sword,$I
+  393  echo $I
+  394  ls
+  395  cd chamber/
+  396  ls
+  397  cat corpse
+  398  ./spell
+  399  ln -fs ../../../chapel/courtyard/aviary/hall portal
+  400  ls
+  401  cd portal
+  402  ls
+  403  cat output.txt 
+  404  ls
+  405  ./carcass 
+  406  ./treasure 
+  407  export I=crown,$I
+  408  echo $I
+  409  ls
+  410  ./carcass 
+  411  cd library/
+  412  ls
+  413  cat scroll 
+  414  ./tome
+  415  tree -F
+  416  cd ..
+  417  tree -F
+  418  ls
+  419  cd ..
+  420  ls
+  421  cd chapel
+  422  ls
+  423  cat scroll 
+  424  ./ altar
+  425  ./altar 
+  426  export I=trinket,$I
+  427  echo $I
+  428  ls
+  429  cd courtyard/
+  430  ls
+  431  cat scroll 
+  432  ./rags 
+  433  export I=rags,fish,$I
+  434  echo $I
+  435  ./fountain 
+  436  HP=HP-2
+  437  echo HP
+  438  echo $HP
+  439  LS
+  440  ls
+  441  cd aviary/
+  442  ls
+  443  cat scroll 
+  444  ./ penguin 
+  445  ./penguin 
+  446  ./crystal 
+  447  export I=crystal,$I
+  448  echo $I
+  449  ls
+  450  cd hall
+  451  ls
+  452  ./treasure 
+  453  ./carcass
+  454  ls
+  455  cd library/
+  456  ls
+  457  cat scroll 
+  458  ./tome 
+  459  cd ..
+  460  tree -F
+  461  print
+  462  cd ..
+  463  terminal text > filetext
+  464  terminal > terminaltext
+  465  termina_l > terminal.txt
+  466  text_g > terminal.txt
+  467  output > terminal.txt
+  468  history > file.txt
+  469  git --version
+  470  git config --global alias.co checkout
+  471  ls
+  472  ~/.gitconfig
+  473  sudo ~/.gitconfig
+  474  ~/.gitconfig
+  475  ls -l
+  476  ls -a
+  477  sudo ~/.gitconfig
+  478  git init
+  479  vi .gitconfig
+  480  '/home/shivendra/bashcrawl/entrance' 
+  481  ls
+  482  lf
+  483  get sudo
+  484  sudo apt update
+  485  git --version
+  486  cd git clone https://gitlab.com/slackermedia/bashcrawl.git bashcrawl
+  487  cd bashcrawl
+  488  cat README.md 
+  489  CD entrance/
+  490  cd entrance/
+  491  ls
+  492  cd cellar/
+  493  ls
+  494  ./treasure
+  495  export I=amulet,$I
+  496  echo $I
+  497  cd armoury/
+  498  ls
+  499  ./treasure 
+  500  export I=sword,$I
+  501  echo $I
+  502  ./potion 
+  503  export HP=15
+  504  echo $HP
+  505  cd chamber/
+  506  ls
+  507  ./treasure 
+  508  export I=coins,$I
+  509  echo $I
+  510  ./spell
+  511  cd portal
+  512  ls
+  513  ./treasure
+  514  export I=crown,$I
+  515  echo $I
+  516  ./carcass 
+  517  cd library/
+  518  ls
+  519  ./tome
+  520  ../
+  521  cd ..
+  522  ls
+  523  cd chapel
+  524  ls
+  525  ./ altar 
+  526  cd courtyard/
+  527  ls
+  528  ./rags
+  529  export I=rags,fish,$I
+  530  echo $I
+  531  ./fountain 
+  532  cd ..
+  533  ./altar 
+  534  cd courtyard/
+  535  ls
+  536  cd aviary/
+  537  ls
+  538  ./ penguin 
+  539  ./penguin 
+  540  ./crystal 
+  541  I=crysral,$I
+  542  echo $I
+  543  cd hall/
+  544  ls
+  545  ./treasure 
+  546  ./carcass 
+  547  cd library/
+  548  ls
+  549  ./tone
+  550  ./tome 
+  551  cd ..
+  552  ls
+  553  cd vault/
+  554  ls
+  555  ./glass 
+  556  cd stronghold/
+  557  ls
+  558  ./goblet 
+  559  cd nursery/
+  560  ls
+  561  ./spell 
+  562  cd lab/
+  563  ls
+  564  echo $I
+  565  cd ..
+  566  ls
+  567  cd vault/
+  568  ls
+  569  ./glass 
+  570  cd stronghold/
+  571  ls
+  572  ./goblet 
+  573  cd nursery/
+  574  ls
+  575  cd lab/
+  576  ls
+  577  cd ..
+  578  ./spell 
+  579  cd ..
+  580  ls
+  581  cat scrap
+  582  cat scroll
+  583  cd cellar
+  584  ls
+  585  cd ..
+  586  cd vault/
+  587  ls
+  588  cd stronghold/
+  589  ls
+  590  cat orb1 
+  591  ls
+  592  ./goblet 
+  593  cat orb1
+  594  cd ..
+  595  ls
+  596  cd chapel/
+  597  ls
+  598  cat scroll
+  599  ./altar 
+  600  export I=trinket,$I
+  601  echo $I
+  602  export I=crystal,$I
+  603  cd ..
+  604  ls
+  605  cd vault/
+  606  ls
+  607  cd stronghold/
+  608  ls
+  609  cd nursery/
+  610  ls
+  611  cd lab/
+  612  ls
+  613  ./ghost 
+  614  $HP
+  615  echo $HP
+  616  echo $I
+  617  CD ..
+  618  cd ..
+  619  ls
+  620  cat scrap
+  621  cat scrap.txt
+  622  ls
+  623  cd aviary
+  624  ls
+  625  chapel
+  626  cd chapel/
+  627  ls
+  628  cd courtyard/
+  629  ls
+  630  ./fountain
+  631  cd aviary/
+  632  ls
+  633  lf
+  634  ./penguin 
+  635  export I=$(sed "s/fish//; s/,,/,/" <<< $I)
+  636  echo $I
+  637  cd hall/
+  638  ls
+  639  ./treasure 
+  640  ./carcass 
+  641  cd library/
+  642  ls
+  643  ./tome
+  644  ls
+  645  cd ..
+  646  ls
+  647  cat output.txt 
+  648  ls
+  649  cat output.txt 
+  650  ls
+  651  cd ..
+  652  ls
+  653  cd scroll
+  654  cat scroll
+  655  cat scrap
+  656  cd cellar/
+  657  ls
+  658  ./ treasure 
+  659  ./treasure 
+  660  cd armoury/
+  661  ls
+  662  cat scroll 
+  663  ./treasure 
+  664  ./potion 
+  665  cd chamber/
+  666  ls
+  667  ./statue 
+  668  echo $HP
+  669  ./treasure 
+  670  export I=diamonds,$I
+  671  echo $I
+  672  cd ..
+  673  cd chapel/
+  674  ls
+  675  cd courtyard/
+  676  ls
+  677  ./rags 
+  678  cd ..
+  679  cd courtyard/
+  680  ls
+  681  ./rags 
+  682  '/home/shivendra/bashcrawl/entrance' 
+  683  cd bashcrawl/
+  684  cat README.md 
+  685  cd entrance/
+  686  ls
+  687  cd cellar
+  688  ls
+  689  ./treasure 
+  690  export I=amulet,$I
+  691  echo $I
+  692  cat scroll
+  693  cd armoury/
+  694  ls
+  695  ./treasure 
+  696  export I=sword,$I
+  697  ./POTION
+  698  ./potion
+  699  HP=15
+  700  echo $HP
+  701  cat scroll
+  702  ls
+  703  cd chamber/
+  704  ls
+  705  ./treasure 
+  706  export I=diamonds,$I
+  707  ./spell 
+  708  cd portal
+  709  ls
+  710  ./treasure 
+  711  export I=crown,$I
+  712  cat output.txt 
+  713  ./carcass 
+  714  cd library/
+  715  ls
+  716  ./tome
+  717  ls
+  718  cat scroll
+  719  cd ..
+  720  ls
+  721  cd chapel
+  722  ls
+  723  ./altar 
+  724  cd courtyard/
+  725  ls
+  726  ./rags
+  727  export I=rags,fish,$I
+  728  echo $I
+  729  ./fountain 
+  730  cd aviary/
+  731  ls
+  732  ./crystal 
+  733  I=crystal,$I
+  734  cat scroll
+  735  ./penguin 
+  736  rm
+  737  rm fish
+  738  ls
+  739  cd hall/
+  740  ls
+  741  ./treasure 
+  742  cd library/
+  743  ls
+  744  cd ..
+  745  ls
+  746  cd vault/
+  747  ls
+  748  ./glass 
+  749  echo $I
+  750  ./G
+  751  ./glass 
+  752  cd stronghold
+  753  ls
+  754  cat orb1
+  755  ./goblet 
+  756  ls
+  757  cd nursery/
+  758  ls
+  759  cat scroll
+  760  ./spell 
+  761  cd lab
+  762  ls
+  763  ./treasure
+  764  export I=emerald, $I
+  765  echo $I
+  766  '/home/shivendra/bashcrawl/entrance' 
+  767  cd enterance 
+  768  cd bashcrawl/
+  769  cd entrance/
+  770  ls
+  771  cd c
+  772  cd cellar/
+  773  ls
+  774  ./treasure 
+  775  export I=amulet,$I
+  776  cat scroll
+  777  cd armoury/
+  778  ls
+  779  ./treasure 
+  780  export I=sword,$I
+  781  cat scroll
+  782  ./potion 
+  783  HP=15
+  784  LS
+  785  ls
+  786  cd chamber/
+  787  ls
+  788  ./treasure 
+  789  export I=diamonds,$I
+  790  ./spell 
+  791  cd portal
+  792  ls
+  793  ./treasure 
+  794  export I=crown,$I
+  795  cd ..
+  796  ls
+  797  ./pieces 
+  798  cat corpse
+  799  ls
+  800  ./treasure 
+  801  ./pieces 
+  802  cat corpse
+  803  cd portal
+  804  ls
+  805  ./treasure 
+  806  cd library/
+  807  ls
+  808  cat scroll 
+  809  ./tome 
+  810  cd ..
+  811  ls
+  812  cd chapel/
+  813  ls
+  814  cat scroll
+  815  ./altar 
+  816  export I=trinket,$I
+  817  echo $I
+  818  LS
+  819  ls
+  820  cd courtyard/
+  821  ls
+  822  cat scroll
+  823  ./rags 
+  824  export I=rags,fish,$I
+  825  ls
+  826  ./fountain 
+  827  ls
+  828  cd aviary/
+  829  ls
+  830  ./crystal 
+  831  export I=crystal,$I
+  832  echo $I
+  833  ls
+  834  cat scroll 
+  835  ./penguin 
+  836  cd hall/
+  837  ls
+  838  ./treasure 
+  839  cd library/
+  840  ls
+  841  cd ..
+  842  ls
+  843  cd vault/
+  844  ls
+  845  cat scroll 
+  846  ./glass 
+  847  cd stronghold/
+  848  ls
+  849  cat scroll 
+  850  ./goblet 
+  851  cd nursery/
+  852  ls
+  853  ./spell 
+  854  cat scroll 
+  855  cd lab/
+  856  ls
+  857  ./treasure 
+  858  export I=emerald,$I
+  859  ./platinum 
+  860  export I=platinum,$I
+  861  echo $I
+  862  cat scroll 
+  863  ./ghost 
+  864  echo $I
+  865  cd ..
+  866  cd..
+  867  cd ..
+  868  terminal_text > game.txt
+  869  exit
+  870  echo $HP
+  871  exit
+  872  '/home/shivendra/bashcrawl/entrance' 
+  873  cd bashcrawl/
+  874  ls
+  875  cat README.md 
+  876  cd entrance/
+  877  ls
+  878  cd cellar/
+  879  ls
+  880  ./treasure 
+  881  export I=amulet,$I
+  882  cat scroll
+  883  cd armoury/
+  884  ls
+  885  ./ treasure 
+  886  ./treasure 
+  887  export I=sword,$I
+  888  ls
+  889  ./potion 
+  890  ./
+  891  ./potion 
+  892  HP=15
+  893  ls
+  894  cat scroll 
+  895  cd chamber/
+  896  ls
+  897  ./treasure 
+  898  export I=diamonds,$I
+  899  ./spell 
+  900  cat scroll 
+  901  ls
+  902  cat corpse
+  903  ./pieces 
+  904  cd portal
+  905  ls
+  906  ./treasure 
+  907  export I=crown,$I
+  908  ./carcass 
+  909  cd library/
+  910  ls
+  911  ./tome 
+  912  cd ..
+  913  cd chapel/
+  914  ls
+  915  cat scroll 
+  916  ./altar 
+  917  export I=trinket,$I
+  918  ls
+  919  cd courtyard/
+  920  ls
+  921  cat scroll 
+  922  ./rags 
+  923  export I=rags,fish,$I
+  924  echo $I
+  925  ls
+  926  ./fountain 
+  927  ls
+  928  cd aviary/
+  929  ls
+  930  ./crystal 
+  931  export I=crystal,$I
+  932  ls
+  933  cat scroll 
+  934  ./penguin 
+  935  cd hall/
+  936  ls
+  937  cd ..
+  938  cd vault/
+  939  ls
+  940  cat scroll 
+  941  ./glass 
+  942  cd stronghold/
+  943  ls
+  944  cat scroll 
+  945  ./goblet 
+  946  cd nursery/
+  947  ls
+  948  ./spell 
+  949  cat scroll 
+  950  cd lab/
+  951  ls
+  952  ./ treasure 
+  953  ./treasure 
+  954  export I=emerald,$I
+  955  ./platinum 
+  956  export I=platinum,$I
+  957  cat scroll 
+  958  echo $I
+  959  ./ghost 
+  960  cd bashcrawl/
+  961  cd entrance/
+  962  ls
+  963  cd cellar/
+  964  ls
+  965  ./te
+  966  ./treasure 
+  967  export I=amulet,$I
+  968  cat scroll 
+  969  cd armoury/
+  970  ls
+  971  ./treasure 
+  972  export I=sword,$I
+  973  ./potion
+  974  HP=15
+  975  echo $HP
+  976  ls
+  977  cd chamber/
+  978  ls
+  979  ./treasure 
+  980  export I=diamonds,$I
+  981  ls
+  982  ./spell 
+  983  ./pieces 
+  984  cat corpse 
+  985  cd portal
+  986  ls
+  987  ./treasure 
+  988  export I=crown,$I
+  989  ./carcass 
+  990  cd library/
+  991  ls
+  992  cd ..
+  993  cd chapel/
+  994  ls
+  995  ./altar 
+  996  cd courtyard/
+  997  ls
+  998  ./rags 
+  999  export I=rags,fish,$I
+ 1000  ./fountain 
+ 1001  cd aviary/
+ 1002  ls
+ 1003  ./crystal 
+ 1004  export I=crystal,$I
+ 1005  cat scroll 
+ 1006  cd hall/
+ 1007  ls
+ 1008  ./treasure 
+ 1009  cd ..
+ 1010  cd vault/
+ 1011  ls
+ 1012  ./glass 
+ 1013  cat scroll 
+ 1014  cd stronghold/
+ 1015  ls
+ 1016  ./goblet 
+ 1017  cat scroll 
+ 1018  cd nursery/
+ 1019  ls
+ 1020  cd lab/
+ 1021  ls
+ 1022  ./treasure 
+ 1023  export I=emerald
+ 1024  ls
+ 1025  echo$I
+ 1026  echo $I
+ 1027  clear
+ 1028  ls
+ 1029  cd c
+ 1030  cd cellar/
+ 1031  ls
+ 1032  ./treasure 
+ 1033  export I=amulet,$I
+ 1034  cd armoury/
+ 1035  ls
+ 1036  ./treasure 
+ 1037  export I=sword,$I
+ 1038  ./potion 
+ 1039  HP=15
+ 1040  cd chamber/
+ 1041  ls
+ 1042  ./treasure 
+ 1043  export I=diamonds,$I
+ 1044  ls
+ 1045  cd portal
+ 1046  ls
+ 1047  ./treasure 
+ 1048  export I=crown,$I
+ 1049  cd library/
+ 1050  ls
+ 1051  cd ..
+ 1052  cd chapel/
+ 1053  ls
+ 1054  ./altar 
+ 1055  ls
+ 1056  cd courtyard/
+ 1057  ls
+ 1058  ./rags 
+ 1059  export I=rags,fish,$I
+ 1060  ls
+ 1061  ./fountain 
+ 1062  ls
+ 1063  cd aviary/
+ 1064  ls
+ 1065  ./crystal 
+ 1066  export I=crystal,$I
+ 1067  ls
+ 1068  cd hall/
+ 1069  ls
+ 1070  ./treasure 
+ 1071  cd ..
+ 1072  cd vault/
+ 1073  ls
+ 1074  cd stronghold/
+ 1075  ls
+ 1076  cd nursery/
+ 1077  ls
+ 1078  cd lab/
+ 1079  ls
+ 1080  ./treasure 
+ 1081  export I=emerald,$I
+ 1082  ./platinum 
+ 1083  export I=platinum,$I
+ 1084  ls
+ 1085  echo $I
+ 1086  cd ..
+ 1087  cd entrance/
+ 1088  history >> game1.txt
